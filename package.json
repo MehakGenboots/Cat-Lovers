@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
     "cra-template": "1.2.0",
+    "formik": "^2.4.6",
+    "my-cat-app": "file:",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",
+    "react-redux": "^9.2.0",
     "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
