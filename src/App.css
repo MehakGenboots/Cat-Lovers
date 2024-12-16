@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (max-width:600px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +35,143 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app{
+  padding-top: 10%;
+  justify-items: center;
+  background-image: url("D:\ReactRedux\redux-app\src\bgimage.webp");
+  opacity: 0.9;
+  background-color: #cccccc;
+  height: 422px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.image{
+  height: 30px;
+  width: 50px;
+}
+.form{
+  text-align: center;
+  padding: 5%;
+  padding-top: 0%;
+  height: 45%;
+  background-color: rgba(89, 101, 123, 0.8);
+  padding-top: 2%;
+  border-radius:5px;
+}
+.login{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  height: fit-content;
+  opacity: 1 !important;
+}
+.top{
+  display: flex;
+  position: relative;
+  opacity: 0.8;
+  color: white;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.heading{
+  margin-top: 1px;
+  margin-left: 4px;
+  font-weight: bold;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+.label1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: black;
+  opacity: 100%;
+}
+.label{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: black;
+  opacity: 100%;
+}
+.button{
+  background-color: rgba(249, 29, 29, 0.808);
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  color: white;
+  padding-top: 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 4px;
+  font-weight: bold;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 6%;
+}
+.button:hover{
+  background-color: rgb(146, 145, 145);
+  color: white;
+}
+.field{
+  padding-bottom: 2%;
+  padding: 5px;
+  margin-top: 2%;
+  width: 150px;
+}
+.input{
+  margin-top: 10%;
+}
+.label2{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: black;
+  opacity: 100%;
+  margin-top: 5px;
+}
+.field1{
+  padding-bottom: 2%;
+  padding: 5px;
+  margin-top: 6%;
+  width: 150px;
+}
+.label3{
+  display: flex;
+  margin-top: 6%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: bold;
+}
+.home{
+  display:flex;
+  margin-left: 60%;
+}
+.img{
+  display: flex;
+  background-color: rgb(252, 211, 218);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
+  height: 30px;
+  width: 40px;
+}
+.topimg{
+  height: 5px;
+  width: 8px;
+}
+.head{
+  margin-top: 2%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.topic{
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20%;
+  margin-left: 60px;
+  margin-right: 40px;
 }
